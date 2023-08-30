@@ -42,15 +42,14 @@ int CountOfChar(string[] array)
 
 void ReleaseArray(string[] array, string[] newArray)
 {
+    int j = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        int j = 0;
         if (array[i].Length <= 3)
         {
             newArray[j] = array[i];
             j++;
         }
-        else j++;
     }
 }
 
@@ -61,4 +60,4 @@ Console.WriteLine($"[{string.Join(", ", array)}]");
 int countOfChar = CountOfChar(array);
 string[] newArray = new string[countOfChar];
 ReleaseArray(array, newArray);
-
+Console.WriteLine($"[{string.Join(", ", newArray)}]");
