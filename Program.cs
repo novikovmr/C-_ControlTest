@@ -8,19 +8,31 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 */
 
+using System.Runtime.InteropServices.Marshalling;
+
 Console.Clear();
 
-int InputSize (string msg)
+int SizeArray (string msg)
 {
     Console.Write(msg);
     int sizeArray = Convert.ToInt32(Console.ReadLine());
-    return sizeArray;
+    return sizeArray;  
 }
 
-void InputArray (string[] stringArray)
+void CreateArray(string[] array, int sizeArray)
 {
-    
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"Введите {i+1} элемент массива: ");
+        array[i] = Console.ReadLine();
+
+    }
 }
 
+int sizeArray = SizeArray("Введите кол-во элементов массива: ");
 
-int sizeArray = InputSize("Введите размер массива: ");
+string[] array = new string[sizeArray];
+
+CreateArray(array, sizeArray);
+
+Console.WriteLine($"[{string.Join(", ", array)}]");
