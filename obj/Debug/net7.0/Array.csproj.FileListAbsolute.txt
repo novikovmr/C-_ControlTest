@@ -1,0 +1,15 @@
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\bin\Debug\net7.0\Array.exe
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\bin\Debug\net7.0\Array.deps.json
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\bin\Debug\net7.0\Array.runtimeconfig.json
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\bin\Debug\net7.0\Array.dll
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\bin\Debug\net7.0\Array.pdb
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\Array.csproj.AssemblyReference.cache
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\Array.AssemblyInfoInputs.cache
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\Array.AssemblyInfo.cs
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\Array.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\Array.dll
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\refint\Array.dll
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\Array.pdb
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\Array.genruntimeconfig.cache
+C:\Users\Max\Desktop\Обучение\1 четверть\Итоговая работа\Array\obj\Debug\net7.0\ref\Array.dll
