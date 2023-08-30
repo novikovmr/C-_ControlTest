@@ -8,8 +8,6 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 */
 
-using System.Runtime.InteropServices.Marshalling;
-
 Console.Clear();
 
 int SizeArray (string msg)
@@ -23,16 +21,44 @@ void CreateArray(string[] array, int sizeArray)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"Введите {i+1} элемент массива: ");
+        Console.Write($"Введите {i+1}-й элемент массива: ");
         array[i] = Console.ReadLine();
 
     }
 }
 
+int CountOfChar(string[] array)
+{
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            count++;
+        }
+    }
+    return count;
+}
+
+void ReleaseArray(string[] array, string[] newArray)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        int j = 0;
+        if (array[i].Length <= 3)
+        {
+            newArray[j] = array[i];
+            j++;
+        }
+        else j++;
+    }
+}
+
 int sizeArray = SizeArray("Введите кол-во элементов массива: ");
-
 string[] array = new string[sizeArray];
-
 CreateArray(array, sizeArray);
-
 Console.WriteLine($"[{string.Join(", ", array)}]");
+int countOfChar = CountOfChar(array);
+string[] newArray = new string[countOfChar];
+ReleaseArray(array, newArray);
+
