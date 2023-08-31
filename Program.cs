@@ -1,13 +1,4 @@
-﻿/*
-Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длина которых меньше, либо равна 3 символам. 
-Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
-лучше обойтись исключительно массивами.
-Примеры:
-[“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
-[“1234”, “1567”, “-2”, “computer science”] → [“-2”]
-[“Russia”, “Denmark”, “Kazan”] → []
-*/
-
+﻿
 Console.Clear();
 
 int SizeArray (string msg)
@@ -56,8 +47,8 @@ void ReleaseArray(string[] array, string[] newArray)
 int sizeArray = SizeArray("Введите кол-во элементов массива: ");
 string[] array = new string[sizeArray];
 CreateArray(array, sizeArray);
-Console.WriteLine($"[{string.Join(", ", array)}]");
 int countOfChar = CountOfChar(array);
 string[] newArray = new string[countOfChar];
 ReleaseArray(array, newArray);
+Console.WriteLine($"[{string.Join(", ", array)}]");
 Console.WriteLine($"[{string.Join(", ", newArray)}]");
